@@ -20,17 +20,7 @@ Nested UNet structure incorporating convolutional gated linear units (ConvGLU) a
 Detailed training logs for each model can be accessed here: [link-to-logs-folder].
 
 ## Project Structure
-project_root/
-├── models/
-│   ├── dataloader.py
-│   └── training.py
-├── 3d_unet.py
-├── nested_3d_unet.py
-├── convglu_nested_unet_attention.py
-└── logs/
-    ├── 3d_unet_logs
-    ├── nested_3d_unet_logs
-    └── convglu_nested_unet_attention_logs
+project_root/ │── models/ │ ├── dataloader.py │ └── training.py │── 3d_unet.py │── nested_3d_unet.py │── convglu_nested_unet_attention.py │── logs/ │ ├── 3d_unet_logs/ │ ├── nested_3d_unet_logs/ │ └── convglu_nested_unet_attention_logs/
     
 ## Usage
 Run the individual Python scripts (3d_unet.py, nested_3d_unet.py, convglu_nested_unet_attention.py) to train and evaluate respective models. Training configurations and hyperparameters are managed in the corresponding training scripts and logged in the respective logs directory.
